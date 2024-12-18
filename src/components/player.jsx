@@ -3,7 +3,7 @@ import { assets } from "./assets/frontend-assets/assets"
 import { PlayerContext } from "./PlayerContext";
 
 const Player = () => {
-    const {seekBg,seekBar,playStatus,play,pause,track,previous,next,seekSong}=useContext(PlayerContext);
+    const {seekBg,seekBar,playStatus,play,pause,track,previous,next,seekSong,time}=useContext(PlayerContext);
     
 
 

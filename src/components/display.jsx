@@ -18,7 +18,7 @@ const Display=()=>{
             displayRef.current.style.background='#121212'
 
         }
-    })
+    },[])
 
 
     return(
